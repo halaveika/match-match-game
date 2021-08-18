@@ -1,0 +1,33 @@
+.header__item-start {
+  width: 122px;
+  height: 36px ;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 37px;
+}
+
+.header__item-start span{
+  width: 122px;
+  height: 36px ;
+  border-radius: 5px;
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #2196F3;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 .10rem black;
+}
+
+.disable #start{
+  color: black;
+  background-color: grey;
+}

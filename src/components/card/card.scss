@@ -1,0 +1,78 @@
+.card-container {
+  width: var(--cardWidth);
+  height: var(--cardHeight);
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  perspective: 25rem;
+  cursor: pointer;
+  &:hover > .card {
+    transform: translateZ(2rem);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.5);
+  }
+
+  &.flipped > .card {
+    transform: rotateY(180deg) translateX(-100%);
+    transform-origin: left;
+  }
+
+}
+
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform-origin: right;
+  transition: all .5s;
+  box-shadow: 0 0 .25rem black;
+
+  &__front,
+  &__back {
+    position: absolute;
+    backface-visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__front {
+    background-color: white;
+
+  }
+
+  &__back {
+    background-color: gray;
+    background-image: url('../../assets/card-back.png');
+    transform: rotateY(180deg);
+  }
+
+}
+
+.bad__turn::after {
+  content: url(../../assets/bad__turn-icon.png);
+  width: inherit;
+  height: inherit;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(221, 5, 5, 0.25);
+  transition: all .3s;
+}
+
+.good__turn::after {
+  content: url(../../assets/good__turn_icon.png);
+  width: inherit;
+  height: inherit;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(5, 221, 106, 0.25);
+  transition: all .3s;
+}
+

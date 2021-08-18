@@ -1,0 +1,19 @@
+.game-timer {
+  display: block;
+  width: 256px;
+  height: 64px;
+  margin: 28px auto 0 auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-timer__output {
+  display: block;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.4);
+}

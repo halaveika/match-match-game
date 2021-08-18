@@ -1,0 +1,12 @@
+
+.cards-field {
+  width: var(--gameFieldWidth);
+  max-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  margin: 60px 100px 100px 100px;
+}

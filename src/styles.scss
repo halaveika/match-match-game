@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  position: relative;
+}
+
+:root {
+  --cardWidth: 1px;
+  --cardHeight: 1px;
+  --gameFieldWidth: 1px;
+}
+
+.hide {
+  display: none !important;
+}
+
+.popupOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+
+.disable {
+  cursor: pointer;
+  pointer-events: none;
+}

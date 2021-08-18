@@ -1,0 +1,33 @@
+.popup__register-avatar-container {
+  display: flex;
+  width: 198px;
+  height: 198px;
+  border-radius: 50%;
+  background-image: url(../../assets/avatar.png);
+  position: relative;
+}
+
+.popup__register-avatar-container:hover {
+  background-image: url(../../assets/avatar-hover.png);
+}
+
+.popup__register-avatar-container:hover::after {
+  content: url(../../assets/avatar-active.png);
+  z-index: 100;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.unvisible{
+  background-image: none;
+  background-color: transparent;
+}
+
+.unvisible:hover{
+  background-image: none;
+}
+
+.unvisible:hover::after{
+  background-image: none;
+}

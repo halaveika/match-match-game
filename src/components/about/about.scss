@@ -1,0 +1,155 @@
+.about {
+  width: 1000px;
+  height: 802px;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 28px 184px 85px 36px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about__container-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: auto;
+  margin-right: 90px;
+}
+
+.about__container-forms {
+  position: relative;
+  display: flex;
+  width: 330px;
+  height: auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-top: 50px;
+}
+
+.about__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: block;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 20px;
+}
+
+#rule1 {
+  position: relative;
+  width: 360px;
+  height: 230px;
+  background-color: white;
+  margin-bottom: 16px;
+  padding: 16px 0 0 72px;
+}
+
+#rule2 {
+  position: relative;
+  width: 360px;
+  height: 132px;
+  background-color: white;
+  margin-bottom: 21px;
+  padding: 16px 0 0 72px;
+}
+
+#rule3 {
+  position: relative;
+  width: 360px;
+  height: 240px;
+  background-color: white;
+  padding: 16px 20px 0 72px;
+}
+
+
+.about__container-info h3{
+  display: block;
+  position: relative;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#rule1 h3::after {
+  content: "1";
+  position: absolute;
+  top: 0;
+  left: -55px;
+  width: 40px;
+  height: 41px;
+  color: white;
+  background-color: #2196F3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 21px;
+}
+
+#rule2 h3::after {
+  content: "2";
+  position: absolute;
+  top: 0;
+  left: -55px;
+  width: 40px;
+  height: 41px;
+  color: white;
+  background-color: #2196F3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 21px;
+}
+
+#rule3 h3::after {
+  content: "3";
+  position: absolute;
+  top: 0;
+  left: -55px;
+  width: 40px;
+  height: 41px;
+  color: white;
+  background-color: #2196F3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 21px;
+}
+
+.register-pic {
+  width: 302px;
+  height: 218px;
+  background-image: url(../../assets/register-image.png);
+  background-size: cover ;
+  margin-bottom: 28px;
+}
+
+
+.gameSettings-pic {
+  width: 116px;
+  height: 73px;
+  background-image: url(../../assets/game-settings-img.png);
+  background-size: cover ;
+  margin-bottom: 80px;
+}
+
+.card-field-pic {
+  width: 330px;
+  height: 240px;
+  background-image: url(../../assets/cards-field-image.png);
+  background-size: cover ;
+}
+

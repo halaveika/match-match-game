@@ -1,0 +1,26 @@
+.header__item-logo {
+  width: 90px;
+  height: 40px;
+}
+
+.logo-top,
+.logo-bottom {
+  display: block;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.logo-top {
+  color: #FFFFFF;
+  background-color: #2196F3 ;
+}
+
+.logo-bottom {
+  color: #2196F3;
+  background-color: #FFFFFF;
+}

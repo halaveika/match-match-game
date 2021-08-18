@@ -1,0 +1,27 @@
+.header {
+  width: 100vw;
+  height: 64px;
+  background-color: #2196F3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_item-text{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+ }
+
+li {
+  list-style-type: none;
+  z-index: 10;
+}
+

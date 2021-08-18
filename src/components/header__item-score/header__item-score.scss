@@ -1,0 +1,28 @@
+.header__item-score {
+  width: 96px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header__item-score span {
+  display: block;
+  position: relative;
+  margin-top: 40px;
+  pointer-events: none;
+}
+
+.header__item-score span::after {
+  width: 20px;
+  height: 20px;
+  content: '';
+  background-image: url(../../assets/best-score_icon.svg);
+  background-size: cover;
+  position: absolute;
+  bottom: 24px;
+  left: 18px;
+  pointer-events: none;
+}

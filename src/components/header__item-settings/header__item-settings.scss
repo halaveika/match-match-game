@@ -1,0 +1,28 @@
+.header__item-settings {
+  width: 96px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header__item-settings span {
+  display: block;
+  position: relative;
+  margin-top: 40px;
+  pointer-events: none;
+}
+
+.header__item-settings span::after {
+  width: 24px;
+  height: 24px;
+  content: '';
+  background-image: url(../../assets/settings_icon.svg);
+  background-size: cover;
+  position: absolute;
+  bottom: 22px;
+  left: 28px;
+  pointer-events: none;
+}
